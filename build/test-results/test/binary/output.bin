@@ -1,0 +1,124 @@
+[1;31m
+Start test 1[0m
+Server started!
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+> exit
+The request was sent.
+[1;31m
+Start test 2[0m
+[1;31m
+Start test 3[0m
+Server started!
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+> 2
+Enter name of the file: 
+> test_purpose_test1.txt
+0Enter name of the file to be saved on server: 
+> 
+The request was sent.
+*Response says that file is saved! ID = 1
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+> 2
+Enter name of the file: 
+> test_purpose_test2.txt
+0Enter name of the file to be saved on server: 
+> test_purpose_newFile.txt
+The request was sent.
+*Response says that file is saved! ID = 2
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+> 1
+CDo you want to get the file by name or by id (1 - name, 2 - id): 
+> 1
+0Enter name of the file to be saved on server: 
+> test_purpose_notExist.txt
+The request was sent.
+0The response says that this file is not found!
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+> 1
+CDo you want to get the file by name or by id (1 - name, 2 - id): 
+> 2
+Enter id: 
+> 1511
+The request was sent.
+0The response says that this file is not found!
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+> 1
+CDo you want to get the file by name or by id (1 - name, 2 - id): 
+> 1
+0Enter name of the file to be saved on server: 
+> test_purpose_newFile.txt
+The request was sent.
+2The file was downloaded! Specify a name for it: 
+> test_purpose_get.txt
+File saved on the hard drive!
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+> 1
+CDo you want to get the file by name or by id (1 - name, 2 - id): 
+> 2
+Enter id: 
+> 1
+The request was sent.
+2The file was downloaded! Specify a name for it: 
+> test_purpose_get_id.txt
+File saved on the hard drive!
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+> exit
+The request was sent.
+[1;31m
+Start test 4[0m
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+> 1
+Server started!
+CDo you want to get the file by name or by id (1 - name, 2 - id): 
+> 1
+0Enter name of the file to be saved on server: 
+> test_purpose_newFile.txt
+The request was sent.
+2The file was downloaded! Specify a name for it: 
+%> test_purpose_get_after_restart.txt
+File saved on the hard drive!
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+> 1
+CDo you want to get the file by name or by id (1 - name, 2 - id): 
+> 2
+Enter id: 
+> 1
+The request was sent.
+2The file was downloaded! Specify a name for it: 
++> test_purpose_get_by_id_after_restart.txt
+File saved on the hard drive!
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+> exit
+The request was sent.
+[1;31m
+Start test 5[0m
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+Server started!
+> 3
+FDo you want to delete the file by name or by id (1 - name, 2 - id): 
+> 1
+0Enter name of the file to be saved on server: 
+> test_purpose_newFile.txt
+The request was sent.
+<The response says that this file was deleted successfully!
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+> 3
+FDo you want to delete the file by name or by id (1 - name, 2 - id): 
+> 2
+Enter id: 
+> 1
+The request was sent.
+<The response says that this file was deleted successfully!
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+DEnter action (1 - get a file, 2 - save a file, 3 - delete a file):
+> exit
+The request was sent.
